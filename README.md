@@ -1,4 +1,4 @@
-## Simple Rust AVL Tree Impl.
+## Rust AVL Tree Impl.
 IntoIter:
 - NLR
 - LRN
