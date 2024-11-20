@@ -6,7 +6,7 @@ fn lnr_mut() {
     for i in 0..10 {
         avl.insert(i);
     }
-    assert_eq!(7, avl.depth());
+    assert_eq!(4, avl.depth());
     assert_eq!(true, avl.contains(9));
     assert_eq!(false, avl.contains(100));
     avl.iter_lnr_mut().for_each(|f| *f += 2);
